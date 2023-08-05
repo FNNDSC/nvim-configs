@@ -36,6 +36,10 @@ local plugins = {
   'rcarriga/nvim-dap-ui',
   'simrat39/rust-tools.nvim',
 
+  -- nu highlighting
+  'LhKipp/nvim-nu',
+  'jose-elias-alvarez/null-ls.nvim',
+
   -- completion
   'ntpeters/vim-better-whitespace',
   'hrsh7th/nvim-cmp',
@@ -58,3 +62,5 @@ local plugins = {
 local opts = {}
 
 require("lazy").setup(plugins, opts)
+require("nu").setup{}
+
