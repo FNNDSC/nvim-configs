@@ -16,9 +16,8 @@ vim.opt.expandtab = true
 
 vim.cmd [[ set noswapfile ]]
 
---Line numbers
+-- Line numbers
 vim.wo.number = true
 
 vim.g.doge_enable_mappings = 1  -- Set the value to 1 to enable mappings
-
 
