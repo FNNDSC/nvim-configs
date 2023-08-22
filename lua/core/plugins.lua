@@ -41,6 +41,7 @@ local plugins = {
   'jose-elias-alvarez/null-ls.nvim',
 
   -- completion
+  'kkoomen/vim-doge',
   'ntpeters/vim-better-whitespace',
   'hrsh7th/nvim-cmp',
   'hrsh7th/cmp-nvim-lsp',
