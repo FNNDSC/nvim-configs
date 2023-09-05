@@ -58,7 +58,13 @@ local plugins = {
 	  tag = '0.1.0',
 	  dependencies = { {'nvim-lua/plenary.nvim'} }
   },
-  'rhysd/conflict-marker.vim'
+  'rhysd/conflict-marker.vim',
+  {
+    'tigion/nvim-asciidoc-preview',
+    ft = { 'asciidoc' },
+    -- opts = {},
+  },
+  'Rykka/InstantRst'
 }
 
 local opts = {}
