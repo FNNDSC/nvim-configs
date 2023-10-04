@@ -89,6 +89,7 @@ local plugins = {
        "nvim-tree/nvim-web-devicons"
     },
   },
+  'hjson/vim-hjson',
   'Rykka/InstantRst'
 }
 
