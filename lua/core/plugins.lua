@@ -89,7 +89,10 @@ local plugins = {
        "nvim-tree/nvim-web-devicons"
     },
   },
+  'numToStr/Comment.nvim',
   'hjson/vim-hjson',
+  'dense-analysis/ale',
+  'Shougo/deoplete.nvim',
   'Rykka/InstantRst'
 }
 
