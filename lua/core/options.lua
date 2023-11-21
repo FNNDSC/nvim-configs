@@ -21,3 +21,9 @@ vim.wo.number = true
 
 vim.g.doge_enable_mappings = 1  -- Set the value to 1 to enable mappings
 
+vim.g.typescript_compiler_binary = 'tsserver'
+vim.g.ale_linters = {
+    javascript = {'eslint'},
+}
+vim.g.coc_global_extensions = {'coc-tsserver'}
+

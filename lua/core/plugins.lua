@@ -91,8 +91,10 @@ local plugins = {
   },
   'numToStr/Comment.nvim',
   'hjson/vim-hjson',
+  'leafgarland/typescript-vim',
   'dense-analysis/ale',
   'Shougo/deoplete.nvim',
+  'neoclide/coc.nvim',
   'Rykka/InstantRst'
 }
 
