@@ -35,6 +35,7 @@ local plugins = {
   'mfussenegger/nvim-dap',
   'rcarriga/nvim-dap-ui',
   'simrat39/rust-tools.nvim',
+  'mxsdev/nvim-dap-vscode-js',
 
   -- nu highlighting
   'LhKipp/nvim-nu',

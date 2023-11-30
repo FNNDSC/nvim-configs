@@ -9,4 +9,5 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 -- Define the keybinding to append a specific string to the current line
 vim.api.nvim_set_keymap('n', '<Leader>z', [[:lua vim.fn.append('.', ',rudolph.pienaar@childrens.harvard.edu')<CR>]], { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('n', '<leader>at', ':ALEToggle<CR>', {noremap = true, silent = true})
 
