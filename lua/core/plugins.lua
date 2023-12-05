@@ -96,6 +96,14 @@ local plugins = {
   'dense-analysis/ale',
   'Shougo/deoplete.nvim',
   'neoclide/coc.nvim',
+  'vim-airline/vim-airline',
+  -- install without yarn or npm
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function() vim.fn["mkdp#util#install"]() end,
+  },
   'Rykka/InstantRst'
 }
 

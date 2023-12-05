@@ -16,6 +16,9 @@ vim.opt.expandtab = true
 
 vim.cmd [[ set noswapfile ]]
 
+-- turn off virtual linting
+vim.diagnostic.config({virtual_text = false})
+
 -- Line numbers
 vim.wo.number = true
 
@@ -26,4 +29,6 @@ vim.g.ale_linters = {
     javascript = {'eslint'},
 }
 vim.g.coc_global_extensions = {'coc-tsserver'}
+
+
 
