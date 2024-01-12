@@ -95,8 +95,8 @@ local plugins = {
   'leafgarland/typescript-vim',
   'dense-analysis/ale',
   'Shougo/deoplete.nvim',
-  'neoclide/coc.nvim',
-  'vim-airline/vim-airline',
+  -- 'neoclide/coc.nvim',
+  -- 'vim-airline/vim-airline',
   -- install without yarn or npm
   {
     "iamcco/markdown-preview.nvim",
